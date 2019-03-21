@@ -1,3 +1,71 @@
 body{
     background-color: lightblue;
 }
+nav{
+    text-transform: uppercase;
+    font-family: PT Sans Narrow;
+}
+.nav-link{
+    font-weight: bold;
+}
+.nav-link:hover{
+    font-style:italic;
+    background-color: pink;
+}
+header{
+    height: 600px;
+    width: 100%;
+    background-image: url(https://image.freepik.com/free-psd/abstract-background-design_1297-87.jpg);
+    background-size:cover;
+    text-align: center;
+}
+header p{
+    font-style: italic;
+    color: white;
+}
+header h1{
+    color: white;
+}
+.services i{
+    font-size: 30px;
+    padding: 25px 20px;
+    color: #fff;
+    background-color: #5bc0de;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.teams img{
+    height: 200px;
+    width:200px;
+    border-radius:50%;
+}
+.services span{
+   width: 200px;
+   display: inline-block;
+}
+.contact textarea{
+    height:300px;
+    width: 100%;
+}
+.contact button{
+    width: 100%;
+}
+.heading{
+    outline: 1px solid black;
+    padding: 40px;
+    text-align:center;
+}
+.price{
+    outline: 1px solid black;
+    padding: 20px;
+}
+.amount{
+    outline: 1px solid black;
+    padding: 20px;
+    text-align:center;
+}
+.info{
+    text-align:center;
+    padding: 40px;
+}

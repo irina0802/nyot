@@ -1,14 +1,186 @@
 <!DOCTYPE html>
 <html>
-    <head>
-       <title> nyot </title>
-       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-       <link rel = "stylesheet" type = "text/css" href = "style.css">
-    </head>
-    <body>
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
-    </body>
+<head>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel = "stylesheet" href = "style.css" type = "text/css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+</head>
+<!-- the body starts here -->
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<a class="navbar-brand" href="#">Company Name</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    		<span class="navbar-toggler-icon"></span>
+  		</button>
+		<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+			<div class="navbar-nav">
+				<a class="nav-item nav-link" href="#">About Us <span class="sr-only">(current)</span></a>
+				<a class="nav-item nav-link" href="#">Pricing</a>
+				<a class="nav-item nav-link" href="#">Services</a>
+				<a class="nav-item nav-link" href="#">Contact Us</a>
+			</div>
+		</div>
+	</nav>
+	
+	<header class="d-flex align-items-center">
+		<div class="container">
+		<h1>Catering</h1>
+		<p>Welcome to our company</p>
+		<button type="button" class="btn btn-primary">Buy Now</button>
+		<button type="button" class="btn btn-secondary">View Details</button>
+		</div>
+	</header>
+	
+	
+	
+	<section class = "services container">
+		<h1> Services</h1>
+		<p> Our company does so much</p>
+		<hr></hr>
+		<div class = "row">
+			<div class = "col-md-6">
+				<i class = "fas fa-desktop"></i>
+				<span><strong>Web Design</strong></span>
+				<p>We offer web design services to businesses who are interested in creating a digital presence.</p>
+			</div>
+			<div class = "col-md-6">
+				<i class = "fas fa-mobile-alt"></i>
+				<span><strong>Mobile Applications</strong></span>
+				<p>We create mobile applications for companies who are interested in expanding their product to reach a larger audience.</p>
+			</div>
+		</div>
+		<div class = "row">
+			<div class = "col-md-6">
+				<i class = "fas fa-pizza-slice"></i>
+				<span><strong>Database</strong></span>
+				<p>Goodest database</p>
+			</div>
+			<div class = "col-md-6">
+				<i class = "fas fa-pizza-slice"></i>
+				<span><strong>Marketing</strong></span>
+				<p>Marketing zombies</p>
+			</div>
+		</div>
+	</section>
+	<section  class = "teams container">
+		<h1> Teams</h1>
+		<p> Our people are super</p>
+		<hr>
+		<div class = "row">
+			<div class = "col-md-3">
+				<img src = "chef.jpeg"></img>
+				<h2>John</h2>
+				<h3>Chef</h3>
+				<p>Fun stuff</p>
+			</div>
+			<div class = "col-md-3">
+				<img src = "chef.jpeg"></img>
+				<h2>Michael</h2>
+				<h3>Chef</h3>
+				<p>Fun stuff</p>
+			</div>
+			<div class = "col-md-3">
+				<img src = "baker.jpeg"></img>
+				<h2>Julie</h2>
+				<h3>Baker</h3>
+				<p>Fun stuff</p>
+			</div>
+			<div class = "col-md-3">
+				<img src = "delivery.jpeg"></img>
+				<h2>Mike</h2>
+				<h3>Delivery Man</h3>
+				<p>Fun stuff</p>
+			</div>
+		</div>
+	</section>
+	
+	<section class = "contact container">
+		<h1>Contact Us</h1>
+		<hr>	
+		<div class = "row">
+		    <div class = "col-md-6">
+		        <div class="input-group input-group-lg">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="inputGroup-sizing-lg">Name</span>
+                     </div>
+                     <input type="text" class="form-control" aria-label="Name" aria-describedby="inputGroup-sizing-sm">
+                </div>
+                <br>
+                <div class="input-group input-group-lg">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="inputGroup-sizing-lg">Email</span>
+                     </div>
+                     <input type="text" class="form-control" aria-label="Email" aria-describedby="inputGroup-sizing-sm">
+                </div>
+                <br>
+                <div class="input-group input-group-lg">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="inputGroup-sizing-lg">Phone</span>
+                     </div>
+                     <input type="text" class="form-control" aria-label="Phone" aria-describedby="inputGroup-sizing-sm">
+                </div>
+		    </div>
+		    <div class = "col-md-6">
+		        <div class="input-group">
+                  <textarea class="form-control" aria-label="With textarea"></textarea>
+                </div>
+                <button type="button" class="btn btn-outline-secondary">Submit</button>
+		    </div>
+		</div>
+	</section>
+
+	<section class = "pricing container">
+		<h1>Pricing</h1>
+		<hr>	
+		<div class = "row">
+		    <div class = "col-md-4 price">
+		       <h2 class= "heading">Standard</h2>
+		       <br>
+		       <h4 class= "amount">$9.99/month</h4>
+		       <div class = "info">
+		  			<p>100 Users</p>
+		      		<p>SSL Certificates</p>
+		      		<p>Online Support</p>
+		       </div>
+		    </div>
+		    
+		    <div class = "col-md-4 price">
+		       <h2 class= "heading">Premium</h2>
+		       <br>
+		       <h4 class= "amount">$19.99/month</h4>
+		       <div class = "info">
+		  			<p>100 Users</p>
+		      		<p>SSL Certificates</p>
+		      		<p>Online Support</p>
+		       </div>
+		    </div>
+		    
+		    <div class = "col-md-4 price">
+		       	<h2 class= "heading">Ultimate</h2>
+		       	<br>
+		       	<h4 class= "amount">$29.99/month</h4>
+		       	<div class = "info">
+		  			<p>100 Users</p>
+		      		<p>SSL Certificates</p>
+		      		<p>Online Support</p>
+		       </div>
+		    </div>
+		</div>
+	</section>
+	
+	<br>
+	<br>
+
+
+
+
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+
+
 </html>
